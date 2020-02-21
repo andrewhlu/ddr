@@ -52,3 +52,40 @@ The goal of this project is to create a dance pad designed to play the “Dance 
 * Andrew will design and assemble the button pads, and find the best materials to use.
 * Norman will assist in creating the frame for the button pads, and mount the LEDs.
 * When working on software, Andrew will work on implementing NFC functionality, while Norman will work on setting up the GPIO interrupts and Bluetooth functionality.
+
+---
+
+The original project proposal, submitted to GauchoSpace, can be found [here](https://andrewhlu.com/ddr/proposal.pdf).
+
+---
+
+# Weekly Updates
+
+## Week 6 Update
+
+After an initial review by our TA (Ryan Kirkpatrick), along with some additional research about ways to implement our large button pads, we have decided to make the following changes to our project:
+
+* Instead of using foil pads for our large buttons, we will look into using mechanical keyboard switches (specifically [NovelKeys x Kailh BOX Heavy Switches, Dark Yellow](https://novelkeys.xyz/collections/switches/products/novelkeys-x-kailh-box-heavy-switches)). We have purchased two packs and will be testing this with our board once we receive them.
+* The NFC functionality for inserting credits will be moved to the end of our project and set as a stretch goal, upon recommendation from the TA, since I2C communication for the PN532 module has the potential to cause a lot of issues and since we have already reached the minimum two serial interface protocols. If time permits, we will try to implement this functionality, but it will be put on the side for now.
+* We will initially start with only four large button pads for the four directions. The "Select" and "Back" buttons will either be added in later or simply be smaller buttons on the side.
+
+## Week 7 Update
+
+We have received our initial order of mechanical keyboard switches. We were able to successfully use them to trigger interrupts by reading standard GPIO input. 
+
+The switches were connected as follows:
+
+* One side of the button is connected to the 3V3 pin on the Discovery board.
+* The other side of the button is connected via a breadboard to GPIO pin PB2 and a resistor.
+* The other side of the resistor is connected to GND.
+
+When the button is pressed, the two sides of the button will be connected, and current will be allowed to flow. The GPIO input pin reads the voltage after the button and uses its state to trigger an interrupt.
+
+This circuit was tested using the code from Lab 1, Part B. No changes were made to the code, and the circuit works as expected, so we will move forward with using mechanical keyboard switches to detect steps on our DDR pad.
+
+We plan to perform the following tasks this weekend:
+
+* Finish Lab 3 (which will allow us to better understand the operation of the HC-05 Bluetooth Module).
+* Create / sketch the design for the DDR pad. This includes the wood base, springs for buttons, switch placement, wiring, LEDs, etc.
+* Create a list of parts we will need to purchase, and come up with a plan for purchasing these parts.
+* Using the code from Lab 1, Part B, as a start, write the code and interrupts for the four switches that will be used.
