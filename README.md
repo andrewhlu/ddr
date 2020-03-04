@@ -91,3 +91,13 @@ We plan to perform the following tasks this weekend:
 * Create / sketch the design for the DDR pad. This includes the wood base, springs, switch placement, wiring, LEDs, etc.
 * Create a list of parts we will need to purchase, and come up with a plan for purchasing these parts.
 * Using the code from Lab 1, Part B, as a start, write the code and interrupts for the four switches that will be used.
+
+## Week 8 Update
+
+We started this week by completing Lab 3. In doing so, however, we discovered that the HC-05 Bluetooth Module is unable to act as a HID device. Upon researching this issue, we discovered that it is theoretically possible to flash the firmware on the module to allow the module to act as an HID device ([see this Instructables article](https://www.instructables.com/id/Upgrade-Your-3-Bluetooth-Module-to-Have-HID-Firmwa/)), but doing so would require us to buy an additional breakout board just to flash the new image. 
+
+As a result, we have opted to forego using this module to emulate a Bluetooth Keyboard. We will instead use standard UART communication over Bluetooth, like we did with Lab 3. In order to get our pad presses into the app, we wrote a simple Python script that will read input from the COM port that the HC-05 is connected to, and emulate a keypress using a library such as [pywin32](https://pypi.org/project/pywin32/) or [pyautogui](https://pyautogui.readthedocs.io/en/latest/).
+
+During Wednesday's lab session, we combined parts of Lab 1B and Lab 3A starter code to use one of our mechanical keyboard switches to emulate the keypress of the character "a" on a computer. The code can be found [on GitHub](https://github.com/andrewhlu/ddr/tree/d73674e7bb15bfca19e8809a1d047ec9f7723af4).
+
+We have also started to plan the design and come up with a list of materials that we need. [This image](week-8-planning.png) shows the preliminary sketches we made during Wednesday's lab session for the design of the pad. We agreed to purchase the springs from McMaster-Carr and purchase the rest of the components from Home Depot. The exact list of components will be decided over the weekend, when we can create a more exact design.
