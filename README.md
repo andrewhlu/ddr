@@ -22,8 +22,9 @@ The goal of this project is to create a dance pad designed to play the “Dance 
 | [Confined-Space Conical Compression Spring, 0.375" Long, 0.6" x 0.281" OD](https://www.mcmaster.com/1692K918) | 20 | $0.98 | $19.60 |
 | [PN532 NFC Module](https://www.amazon.com/dp/B01I1J17LC/) | 1 | $9.99 | $9.99 |
 | SMD5050 Chipset RGB LED Strip (12V) | 3 | ? | ? |
+| [ELECTRONIX EXPRESS Solid Hook Up Wire Kit 22 Gauge](https://www.amazon.com/dp/B00B4ZRPEY/) | 1 | $18.99 | $18.99 |
 
-\* This parts list shows every part we have ordered so far, including extra quantities that we have ordered for testing and as a backup. This will be updated as the project progresses to reflect the actual parts used. All prices are listed before taxes, tariffs, and shipping costs.
+\* This parts list shows every part we have ordered (or plan on ordering) so far, including extra quantities that we have ordered for testing and as a backup. This will be updated as the project progresses to reflect the actual parts used. All prices are listed before taxes, tariffs, and shipping costs.
 
 ## Peripherals
 
