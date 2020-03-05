@@ -81,7 +81,7 @@ The original project proposal, submitted to GauchoSpace, can be found [here](pro
 
 # Weekly Updates
 
-## Week 6 Update
+## Week 6 Update (February 14)
 
 After an initial review by our TA ([Ryan Kirkpatrick](https://www.ece.ucsb.edu/~yoga/capstone/static/img/students/ryan_kirkpatrick.jpg)), along with some additional research about ways to implement our large button pads, we have decided to make the following changes to our project:
 
@@ -91,7 +91,7 @@ After an initial review by our TA ([Ryan Kirkpatrick](https://www.ece.ucsb.edu/~
     * If time permits, we will try to implement this functionality, but it will be put on the side for now.
 * We will initially start with only four large button pads for the four directions. The "Select" and "Back" buttons will either be added in later or simply be smaller buttons on the side.
 
-## Week 7 Update
+## Week 7 Update (February 21)
 
 We have received our initial order of mechanical keyboard switches. We were able to wire them like buttons and successfully use them to trigger interrupts by reading standard GPIO input. 
 
@@ -112,7 +112,7 @@ We plan to perform the following tasks this weekend:
 * Create a list of parts we will need to purchase, and come up with a plan for purchasing these parts.
 * Using the code from Lab 1, Part B, as a start, write the code and interrupts for the four switches that will be used.
 
-## Week 8 Update
+## Week 8 Update (February 28)
 
 We started this week by completing Lab 3. In doing so, however, we discovered that the HC-05 Bluetooth Module is unable to act as a HID device. Upon researching this issue, we discovered that it is theoretically possible to flash the firmware on the module to allow the module to act as an HID device ([see this Instructables article](https://www.instructables.com/id/Upgrade-Your-3-Bluetooth-Module-to-Have-HID-Firmwa/)), but doing so would require us to buy an additional breakout board just to flash the new image. We simply didn't have the time to purchase it, so we looked for other options.
 
@@ -121,3 +121,7 @@ As a result, we decided to forego emulating a Bluetooth Keyboard. We will instea
 During Wednesday's lab session, we combined parts of Lab 1B and Lab 3A starter code to use one of our mechanical keyboard switches to emulate the keypress of the character "a" on a computer. The code can be found [on GitHub](https://github.com/andrewhlu/ddr/tree/d73674e7bb15bfca19e8809a1d047ec9f7723af4).
 
 We have also started to plan the design and come up with a list of materials that we need. [This image](week-8-planning.png) shows the preliminary sketches we made during Wednesday's lab session for the design of the pad. We agreed to purchase the springs from McMaster-Carr and purchase the rest of the components from Home Depot. The exact list of components will be decided over the weekend, when we can create a more exact design.
+
+## Week 9 Update (March 6)
+
+We started the week by creating the above [parts list](#parts-list) with all the parts we already ordered. During Wednesday's lab section, we then researched the hardware materials we needed to purchase from Home Depot, and have added those new materials to the parts list as well. We seek to purchase those soon.
