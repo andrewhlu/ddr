@@ -26,6 +26,7 @@ The goal of this project is to create a dance pad designed to play the “Dance 
 | [Sanded Plywood (15/32 in. x 4 ft. x 8 ft.)](https://www.homedepot.com/p/100097501) | 1 | $29.45 | $29.45 |
 | [1 in. x 2 in. x 8 ft. Furring Strip Board](https://www.homedepot.com/p/100009348) | 1 | $1.18 | $1.18 |
 | [12 in. x 24 in. x .093 in. Clear Polycarbonate Sheet](https://www.homedepot.com/p/202038063) | 2 | $15.98 | $31.96 |
+| [IRLZ34NPBF Logic-Level MOSFET](https://www.digikey.com/short/z83fb3) | 15 | $1.04 | $15.60 |
 
 \* This parts list shows every part we have ordered (or plan on ordering) so far, including extra quantities that we have ordered for testing and as a backup. This will be updated as the project progresses to reflect the actual parts used. All prices are listed before taxes, tariffs, and shipping costs.
 
