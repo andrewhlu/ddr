@@ -24,7 +24,6 @@ The goal of this project is to create a dance pad designed to play the “Dance 
 | SMD5050 Chipset RGB LED Strip (12V) | 3 | ? | ? |
 | [ELECTRONIX EXPRESS Solid Hook Up Wire Kit 22 Gauge](https://www.amazon.com/dp/B00B4ZRPEY/) | 1 | $18.99 | $18.99 |
 | [Sanded Plywood (15/32 in. x 4 ft. x 8 ft.)](https://www.homedepot.com/p/100097501) | 1 | $29.45 | $29.45 |
-| [1 in. x 2 in. x 8 ft. Furring Strip Board](https://www.homedepot.com/p/100009348) | 1 | $1.18 | $1.18 |
 | [12 in. x 24 in. x .093 in. Clear Polycarbonate Sheet](https://www.homedepot.com/p/202038063) | 2 | $15.98 | $31.96 |
 | [IRLZ34NPBF Logic-Level MOSFET](https://www.digikey.com/short/z83fb3) | 15 | $1.04 | $15.60 |
 
@@ -125,4 +124,8 @@ We have also started to plan the design and come up with a list of materials tha
 
 ## Week 9 Update (March 6)
 
-We started the week by creating the above [parts list](#parts-list) with all the parts we already ordered. During Wednesday's lab section, we then researched the hardware materials we needed to purchase from Home Depot, and have added those new materials to the parts list as well. We seek to purchase those soon.
+We started the week by creating the above [parts list](#parts-list) with all the parts we already ordered. During Wednesday's lab section, we then researched the hardware materials we needed to purchase from Home Depot, and have added those new materials to the parts list as well. We have also ordered a set of 15 logic-level MOSFETS for driving the LEDs using the GPIO output, which will arrive on Monday.
+
+On Thursday night, we made a trip to Home Depot and purchased all the necessary supplies for our project. We were able to cut our plywood into a 35 inch by 35 inch square base and the 11 inch strips for creating the pads, but due to store limitations on the number and size of cuts we were able to make, we were unable to have their associates make every cut that we needed. As a result, we plan to finish cutting the rest of the board on Tuesday at the UCSB Woodshop in the Arts building.
+
+We do not plan on doing any further work this weekend due to numerous assignments and the 153B midterm on Monday. We will provide new updates after that.
