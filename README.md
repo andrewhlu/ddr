@@ -44,6 +44,14 @@ The goal of this project is to create a dance pad designed to play the “Dance 
 * Wood, Acrylic, and Springs for the assembly of the pad.
 * Computer (used to play [StepMania](https://www.stepmania.com/), a rhythm game designed to simulate "Dance Dance Revolution")
 
+## Pin Connections
+* PB7 - HC-05 Tx
+* PB6 - HC-05 Rx
+* PA0 - Up Button Input (Red LED)
+* PA1 - Down Button Input (Red LED)
+* PA2 - Left Button Input (Red LED)
+* PA3 - Right Button Input (Red LED)
+* 
 ## Software Design
 
 * Each of the switches will be connected to a GPIO input pin. When the user steps on the pad, the circuit in the pad will be connected and trigger the interrupt for that GPIO pin. 

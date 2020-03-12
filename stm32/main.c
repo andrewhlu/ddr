@@ -27,9 +27,9 @@ int main() {
 	LED_Init();
 	EXTI_Init();
 
-	Init_USARTx(1);
+	Init_USARTx(2);
 
-	printf("Test\n");
+	// printf("Test\n");
 
 	while(1) {};
 	
