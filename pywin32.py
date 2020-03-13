@@ -186,39 +186,39 @@ pressed = None
 # shell = win32com.client.Dispatch("WScript.Shell")
 
 while True:
-        buffer = ser.read()
+    buffer = ser.read()
 
-        if(len(buffer) > 0):
-            if direction == None:
-                direction = buffer.decode("ascii")
-            elif pressed == None:
-                pressed = buffer.decode("ascii")
+    if(len(buffer) > 0):
+        if direction == None:
+            direction = buffer.decode("ascii")
+        elif pressed == None:
+            pressed = buffer.decode("ascii")
 
-                # We now have everything we need to emulate keypress
-                if direction == "U":
-                    if pressed == "P":
-                        pressAndHold('w')
-                    elif pressed == "R":
-                        release('w')
-                elif direction == "D":
-                    if pressed == "P":
-                        pressAndHold('s')
-                    elif pressed == "R":
-                        release('s')
-                elif direction == "L":
-                    if pressed == "P":
-                        pressAndHold('a')
-                    elif pressed == "R":
-                        release('a')
-                elif direction == "R":
-                    if pressed == "P":
-                        pressAndHold('d')
-                    elif pressed == "R":
-                        release('d')
-                
-                # Clear direction and pressed
-                direction = None
-                pressed = None
+            # We now have everything we need to emulate keypress
+            if direction == "U":
+                if pressed == "P":
+                    pressAndHold('w')
+                elif pressed == "R":
+                    release('w')
+            elif direction == "D":
+                if pressed == "P":
+                    pressAndHold('s')
+                elif pressed == "R":
+                    release('s')
+            elif direction == "L":
+                if pressed == "P":
+                    pressAndHold('a')
+                elif pressed == "R":
+                    release('a')
+            elif direction == "R":
+                if pressed == "P":
+                    pressAndHold('d')
+                elif pressed == "R":
+                    release('d')
+            
+            # Clear direction and pressed
+            direction = None
+            pressed = None
 
 # Theoretically, this should never happen
 ser.close()
