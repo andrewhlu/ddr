@@ -137,3 +137,24 @@ We started the week by creating the above [parts list](#parts-list) with all the
 On Thursday night, we made a trip to Home Depot and purchased all the necessary supplies for our project. We were able to cut our plywood into a 35 inch by 35 inch square base and the 11 inch strips for creating the pads, but due to store limitations on the number and size of cuts we were able to make, we were unable to have their associates make every cut that we needed. As a result, we plan to finish cutting the rest of the board on Tuesday at the UCSB Woodshop in the Arts building.
 
 We do not plan on doing any further work this weekend due to numerous assignments and the 153B midterm on Monday. We will provide new updates after that.
+
+## To-Do List for Pi Day (3.14)
+
+Before meeting tomorrow:
+* Norman:
+  * Print and bring arrows
+  * Get soldering iron / solder from someone. And if possible, more wires. 
+* Andrew:
+  * Check on springs / wood in the morning
+  * See if we can get mechanical switch holder
+
+To do tomorrow:
+* Write code to test LEDs
+* Do all the wiring (which includes LEDs)
+* Test the wiring
+* Drill hole for switches
+* Place switches
+* Glue the middle panel and front border
+* Glue the springs to bottom frame
+* Build box for external circuitry
+* Glue the box?
