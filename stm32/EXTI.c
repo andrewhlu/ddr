@@ -83,10 +83,12 @@ void EXTI0_IRQHandler(void) {
 
 	if((GPIOA -> IDR) & GPIO_IDR_ID0) {
 		Red_LED_On();
+		Up_LED_On();
 		printf("UP");
 	}
 	else {
 		Red_LED_Off();
+		Up_LED_Off();
 		printf("UR");
 	}
 }
@@ -96,10 +98,12 @@ void EXTI1_IRQHandler(void) {
 
 	if((GPIOA -> IDR) & GPIO_IDR_ID1) {
 		Red_LED_On();
+		Down_LED_On();
 		printf("DP");
 	}
 	else {
 		Red_LED_Off();
+		Down_LED_Off();
 		printf("DR");
 	}
 }
@@ -108,10 +112,12 @@ void EXTI2_IRQHandler(void) {
 
 	if((GPIOA -> IDR) & GPIO_IDR_ID2) {
 		Red_LED_On();
+		Left_LED_On();
 		printf("LP");
 	}
 	else {
 		Red_LED_Off();
+		Left_LED_Off();
 		printf("LR");
 	}
 }
@@ -121,10 +127,12 @@ void EXTI3_IRQHandler(void) {
 
 	if((GPIOA -> IDR) & GPIO_IDR_ID3) {
 		Red_LED_On();
+		Right_LED_On();
 		printf("RP");
 	}
 	else {
 		Red_LED_Off();
+		Right_LED_Off();
 		printf("RR");
 	}
 }
