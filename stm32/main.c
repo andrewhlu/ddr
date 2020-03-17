@@ -29,7 +29,10 @@ int main() {
 
 	Init_USARTx(2);
 
-	// printf("Test\n");
+	Up_LED_On();
+	Down_LED_On();
+	Left_LED_On();
+	Right_LED_On();
 
 	while(1) {};
 	

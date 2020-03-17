@@ -17,6 +17,15 @@ void Red_LED_Off(void);
 void Red_LED_On(void);
 void Red_LED_Toggle(void);
 
+void Up_LED_On(void);
+void Up_LED_Off(void);
+void Down_LED_On(void);
+void Down_LED_Off(void);
+void Left_LED_On(void);
+void Left_LED_Off(void);
+void Right_LED_On(void);
+void Right_LED_Off(void);
+
 void Green_LED_Off(void);
 void Green_LED_On(void);
 void Green_LED_Toggle(void);
