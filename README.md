@@ -138,23 +138,19 @@ On Thursday night, we made a trip to Home Depot and purchased all the necessary 
 
 We do not plan on doing any further work this weekend due to numerous assignments and the 153B midterm on Monday. We will provide new updates after that.
 
-## To-Do List for Pi Day (3.14)
+## Week 10 Update (March 13)
 
-Before meeting tomorrow:
-* Norman:
-  * Print and bring arrows
-  * Get soldering iron / solder from someone. And if possible, more wires. 
-* Andrew:
-  * Check on springs / wood in the morning
-  * See if we can get mechanical switch holder
+We started this week by getting the rest of our wood cut at the Woodshop. Once that was completed, we spent one night gluing together the borders and corner tiles. We also spent some time fixing our Python script for emulating keystrokes. When playtesting our circuit, we discovered that StepMania does not support virtual keypresses, so we have opted to use osu! from now on. The build stream can be found [here](https://www.twitch.tv/videos/565844980).
 
-To do tomorrow:
+In our next meeting, after verifying that the borders and corner tiles were glued together, we cut the polycarbonate and trimmed the borders to size. Once that was complete, we glued three of the borders and corner tiles to the base. We also glued the springs to each of the button pads. The build stream can be found [here](https://www.twitch.tv/videos/566957552).
+
+As we both have other projects that are due this weekend, we won't be meeting again until Finals week. Our plan for finals week includes finishing the frame assembly (including LEDs and polycarbonate), and finishing our circuit. 
+
+## Week 11 Update (March 20)
+
+We started this week by wiring and soldering the entire circuit to the base of the DDR pad. This includes wiring up the LEDs and mechanical keyboard switches. We printed out DDR pad arrows and glued them to our polycarbonate tiles. Once that was complete, we drilled holes to fit our keyboard swtiches, and finished the assembly of the DDR pad by gluing in the center tile and the final border. We also finished coding our LED strips, though we were not able to test them in this meeting as we were waiting for the glue on the keyboard switches to dry. The build stream can be found [here](https://www.twitch.tv/videos/568852555).
+
+To do list:
 * Write code to test LEDs
-* Do all the wiring (which includes LEDs)
 * Test the wiring
-* Drill hole for switches
-* Place switches
-* Glue the middle panel and front border
 * Glue the springs to bottom frame
-* Build box for external circuitry
-* Glue the box?
