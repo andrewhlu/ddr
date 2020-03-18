@@ -51,7 +51,19 @@ The goal of this project is to create a dance pad designed to play the “Dance 
 * PA1 - Down Button Input (Red LED)
 * PA2 - Left Button Input (Red LED)
 * PA3 - Right Button Input (Red LED)
-* 
+* PB3 - Up Red
+* PA5 - Up Green
+* PD0 - Up Blue
+* PC14 - Down Red
+* PC15 - Down Green
+* PH0 - Down Blue
+* PH1 - Left Red
+* PE11 - Left Green
+* PE10 - Left Blue
+* PE12 - Right Red
+* PE13 - Right Green
+* PE14 - Right Blue
+
 ## Software Design
 
 * Each of the switches will be connected to a GPIO input pin. When the user steps on the pad, the circuit in the pad will be connected and trigger the interrupt for that GPIO pin. 
