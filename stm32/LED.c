@@ -122,8 +122,8 @@ void Red_LED_Toggle(void){
 
 void Up_LED_On(void) {
 	// PB3, PA5, PD0 - Up
-	GPIOB -> ODR |= GPIO_ODR_OD3;
-	GPIOA -> ODR |= GPIO_ODR_OD5;
+	// GPIOB -> ODR |= GPIO_ODR_OD3;
+	// GPIOA -> ODR |= GPIO_ODR_OD5;
 	GPIOD -> ODR |= GPIO_ODR_OD0;
 }
 
@@ -136,8 +136,8 @@ void Up_LED_Off(void) {
 
 void Down_LED_On(void) {
 	// PC14, PC15, PH0 - Down
-	GPIOC -> ODR |= GPIO_ODR_OD14;
-	GPIOC -> ODR |= GPIO_ODR_OD15;
+	// GPIOC -> ODR |= GPIO_ODR_OD14;
+	// GPIOC -> ODR |= GPIO_ODR_OD15;
 	GPIOH -> ODR |= GPIO_ODR_OD0;
 }
 
@@ -151,7 +151,7 @@ void Down_LED_Off(void) {
 void Left_LED_On(void) {
 	// PH1, PE11, PE10 - Left
 	GPIOH -> ODR |= GPIO_ODR_OD1;
-	GPIOE -> ODR |= GPIO_ODR_OD11;
+	// GPIOE -> ODR |= GPIO_ODR_OD11;
 	GPIOE -> ODR |= GPIO_ODR_OD10;
 }
 
@@ -165,7 +165,7 @@ void Left_LED_Off(void) {
 void Right_LED_On(void) {
 	// PE12, PE13, PE14 - Right
 	GPIOE -> ODR |= GPIO_ODR_OD12;
-	GPIOE -> ODR |= GPIO_ODR_OD13;
+	// GPIOE -> ODR |= GPIO_ODR_OD13;
 	GPIOE -> ODR |= GPIO_ODR_OD14;
 }
 
