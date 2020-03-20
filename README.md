@@ -8,7 +8,7 @@ ECE 153B, Winter 2020, Professor Isukapalli.
 
 ---
 
-DDR Pad Demo Video: https://youtu.be/8BjvtFz74WU
+DDR Pad Demo Video: [https://youtu.be/8BjvtFz74WU](https://youtu.be/8BjvtFz74WU)
 
 ---
 
