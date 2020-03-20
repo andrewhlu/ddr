@@ -8,6 +8,10 @@ ECE 153B, Winter 2020, Professor Isukapalli.
 
 ---
 
+DDR Pad Demo Video: https://youtu.be/8BjvtFz74WU
+
+---
+
 ## Overview
 
 The goal of this project is to create a dance pad designed to play the “Dance Dance Revolution” game commonly found in arcades. The dance pad will consist of a large 3x3 grid with up, down, left, and right arrows which will serve as large buttons. When playing the game, users can step on the large buttons, which will cause an interrupt to send a keystroke over Bluetooth to the computer running the game.
